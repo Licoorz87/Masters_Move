@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Master's Move</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body onload="renderBoard()">
+        <div id="board"></div>
+        <!- White Pieces ->
+            <img class="piece" id="pawnWhite1" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite2" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite3" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite4" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite5" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite6" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite7" src="pawnWhite.png" />
+            <img class="piece" id="pawnWhite8" src="pawnWhite.png" />
+            <img class="piece" id="knightWhite1" src="knightWhite.png" />
+            <img class="piece" id="knightWhite2" src="knightWhite.png" />
+            <img class="piece" id="bishopWhite1" src="bishopWhite.png" />
+            <img class="piece" id="bishopWhite2" src="bishopWhite.png" />
+            <img class="piece" id="rookWhite1" src="rookWhite.png" />
+            <img class="piece" id="rookWhite2" src="rookWhite.png" />
+            <img class="piece" id="queenWhite" src="queenWhite.png" />
+            <img class="piece" id="kingWhite" src="kingWhite.png" />
+        <!- Black Pieces ->
+            <img class="piece" id="pawnBlack1" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack2" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack3" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack4" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack5" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack6" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack7" src="pawnblack.png" />
+            <img class="piece" id="pawnBlack8" src="pawnblack.png" />
+            <img class="piece" id="knightBlack1" src="knightblack.png" />
+            <img class="piece" id="knightBlack2" src="knightblack.png" />
+            <img class="piece" id="bishopBlack1" src="bishopblack.png" />
+            <img class="piece" id="bishopBlack2" src="bishopblack.png" />
+            <img class="piece" id="rookBlack1" src="rookblack.png" />
+            <img class="piece" id="rookBlack2" src="rookblack.png" />
+            <img class="piece" id="queenBlack" src="queenblack.png" />
+            <img class="piece" id="kingBlack" src="kingblack.png" />
+        <h1 id="namePlayers">Player x Player (year)</h1>
+        <h3 id="whenPlayed">Color Play</h3>
+        <button onclick="newPosition()">New Position</button>
+        <button onclick="showMastersMove()">Show Master's Move</button>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

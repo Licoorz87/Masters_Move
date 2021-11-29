@@ -1,0 +1,44 @@
+body {
+    background-color: #DEB887;
+    overflow-x: hidden;
+}
+
+#board {
+    margin-left: 25px;
+}
+
+.white {
+    width: 75px;
+    height: 75px;
+    background-color: #E6E6FF;
+}
+
+.black {
+    width: 75px;
+    height: 75px;
+    background-color: darkslategray;
+}
+
+.column {
+    float: left;
+}
+
+h1, h3, button {
+    position: relative;
+    left: 150px;
+}
+
+button {
+    font-size: large;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+.piece {
+    position: absolute;
+    left: 32px;
+    width: 75px;
+    height: 75px;
+}
